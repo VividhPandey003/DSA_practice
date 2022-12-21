@@ -22,7 +22,7 @@ int pow2(int m, int n)
     if (n % 2 == 0)
         return pow2(m * m, n / 2);
     else
-        return m * pow2(m * m, (n-1) / 2);
+        return m * pow2(m * m, (n - 1) / 2);
 }
 
 int main()
